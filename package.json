@@ -13,7 +13,7 @@
       "xfwd": true
     }
   },
-  "homepage": ".",
+  "homepage": null,
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "babel-plugin-import": "^1.6.3",
