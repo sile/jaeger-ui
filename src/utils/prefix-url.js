@@ -16,7 +16,7 @@ import { homepage } from '../../package.json';
 
 // strip the domain, first slash and trailing slash (if present)
 const rx = new RegExp('^(?:https?://[^/]+)?/?(.*?)/?$', 'i');
-let prefix = '';
+let prefix = '/jaeger';
 
 /**
  * Generate the URL prefix from `value` and use it for all subsequent calls to
